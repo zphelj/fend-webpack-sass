@@ -1,5 +1,6 @@
 import { checkForName } from './js/nameChecker'
 import { handleSubmit } from './js/formHandler'
+import { weatherForZip } from './js/callAPI'
 
 import './styles/resets.scss'
 import './styles/base.scss'
@@ -9,9 +10,10 @@ import './styles/header.scss'
 
 console.log(checkForName);
 
-alert("I EXIST")
+// alert("I EXIST")
 
 export {
     checkForName,
-    handleSubmit
+    handleSubmit,
+    weatherForZip
 }
